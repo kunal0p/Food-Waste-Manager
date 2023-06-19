@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18191A"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Home"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:fontFamily="@font/baloo_bhai" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/customcard">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="25dp"
+                    android:text="Donate                   Food"
+                    android:fontFamily="@font/font3"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/donate1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="-15dp"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/customcard">
+
+                <TextView
+                    android:layout_width="225dp"
+                    android:layout_height="match_parent"
+                    android:padding="25dp"
+                    android:text="Available Food"
+                    android:fontFamily="@font/font3"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/listfood" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="-15dp"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <RelativeLayout
+                android:id="@+id/rel3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/customcard">
+
+                <TextView
+                    android:layout_width="236dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/font3"
+                    android:padding="25dp"
+                    android:text="Food Management"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                 />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/salad" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="-15dp"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <RelativeLayout
+                android:id="@+id/rel4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/customcard">
+
+                <TextView
+                    android:layout_width="218dp"
+                    android:layout_height="match_parent"
+                    android:padding="25dp"
+                    android:fontFamily="@font/font3"
+                    android:text="Importance of Food"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-15dp"
+                android:src="@drawable/diet" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

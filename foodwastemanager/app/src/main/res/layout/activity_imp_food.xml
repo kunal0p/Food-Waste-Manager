@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18191A"
+    android:orientation="vertical"
+    tools:context=".imp_food"
+    android:weightSum="4">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="75dp"
+            android:text="Feeder"
+            android:fontFamily="@font/fugaz_one"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/custom_relative">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingStart="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font3"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Food is essential for our bodies to:
+                develop, replace and repair cells and tissues;
+                Produce energy to maintain warm, move and work;
+                Carry out chemical processes such as the digestion of nutrient;
+                Protect against, protest and fight infection and recover from illness.
+                Food is created up of nutrients. Micronutrients such as vitamins and minerals
+                are required solely in diminished quantities. Micronutrients such as carbohydrates,
+                protein and fat are needed in larger quantities. The body cannot work properly if one or
+                more foods are lacking. A sound and balanced diet provides nutrients in the correct quantities
+                 and combinations that are safe and free from disease and harmful substances."/>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

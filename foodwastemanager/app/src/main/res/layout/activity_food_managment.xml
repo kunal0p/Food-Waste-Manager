@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#18191A"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:weightSum="4">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="75dp"
+            android:text="Feeder"
+            android:fontFamily="@font/fugaz_one"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/custom_relative">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingStart="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font3"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Those in the food service industry are obligated to guarantee their items are safe, properly packaged, and fresh for consumers. With changing customer demands and burdensome
+                health regulations, it's easy for those in the food industry to feel overwhelmed.
+                Whether it is a small diner, farmer's market, or a large restaurant chain,
+                everyone knows that selling delicious, safe, and fresh food is essential to building a brand and maintaining a profit.
+                Plan ahead and make a list to avoid too much food and impulse-buying at the supermarket.
+                Donate any extra fresh produce and vegetables to Ample Harvest and local food banks.
+                When preparing for large meals, use an online portion calculator, such as one from Love Food Hate Waste.
+                Afterwards, take notes on how much food was actually consumed to better plan for next time.
+                Find new uses for “waste,” like turning vegetable scraps and bones into soup stock. And love your leftovers by exploring new recipes."/>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
